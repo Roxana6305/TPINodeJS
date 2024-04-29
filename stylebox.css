@@ -7,7 +7,8 @@
 /*HEADER*/
 
 body {
-    font-family: Arial, sans-serif;
+    background: #131315;
+    font-family: var(--font-style);
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -50,7 +51,7 @@ header{
 
 .login-box {
     position: relative;
-    margin: 25% 0% -20% 50%;
+    margin:  25% 50% 0% 50%;
     width: 35%;
     height: auto;
     padding: 4%;
@@ -72,10 +73,10 @@ header{
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: #655f5f;
+    color: #fff;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid #181717;
+    border-bottom: 1px solid #fff;
     outline: none;
     background: transparent;
 }
@@ -86,7 +87,7 @@ header{
     top: -60px;
     padding: 10px 0;
     font-size: 16px;
-    color: #181515;
+    color: #fff;
     pointer-events: none;
     transition: .5s;
 }
