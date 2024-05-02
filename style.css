@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*HEADER*/
@@ -48,6 +49,7 @@ footer{
 	overflow: hidden;
 }
 
+
 .contenedor-footer{
 	display: flex;
 	width: 90%;
@@ -76,6 +78,39 @@ footer{
 	text-align: center;
 	font-size: 24px;
 }
+
+/* Agregados y modificados para el index */
+.background-index {
+	background-image: url("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.background-none{
+	background-color: none;
+}
+
+.barra-navegacion{
+	justify-content: end;
+	padding:2vw;
+}
+.barra-navegacion:hover{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  	transition: background-image 10000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.nav-items{
+	text-align: center;
+	justify-content: space-around;
+}
+footer{
+	background-color:#00000000;
+}
+.content-footer p, .content-footer h6, .titulo-final{
+	color: #8F7CEC;
+	font-size: 1rem;
+}
+
+/*  Fin de agregados para el index */
 
 
 

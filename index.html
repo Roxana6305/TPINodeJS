@@ -4,54 +4,86 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewdivort" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" tydive="text/css" href="./style.css">
 	<title>NombreDelSitio</title>
+	<link rel="stylesheet" tydive="text/css" href="./bootstrap.min.css">
+	<link rel="stylesheet" tydive="text/css" href="./style.css">
+	<script src="./bootstrap.min.js" ></script>
 </head>
 
-<body>
+<body class="background-index">
 	<header>
 		<section>
 			<div class="barra-navegacion">
-				<div>
-					<div class="container">
-						<button id="theme-toggle">Cambiar Tema</button>
-					</div>
-					<nav>
-					<a>Inicio</a>
-					<a href="sesion.html">Sesion</a>
-					<a href="registro.html">Registro</a>
-					</nav>
-				</div>
+				<!-- <div class="container">
+					<button id="theme-toggle">Cambiar Tema</button>
+				</div> -->
+				<nav class="nav-items">
+					<a  class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Inicio</a>
+					<a href="sesion.html" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Sesion</a>
+					<a href="registro.html" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Registro</a>
+					<button id="theme-toggle" class="align-self-stretch">Cambiar Tema</button>
+				</nav>
+
 			</div>
 		</section>
 	</header>
 
-	<section class="respon">
-		<h2>"Este sitio fue realizado a modo de practico en el marco de estudio en la Agencias de Aprendizaje
-		a lo largo de la vida, Codo a Codo Full Stack Node.JS Comision 24124"
-</h2>
-		<h2>"Todo lo aqui volcado, es a modo informativo y fue recopilado de otros sitio web. Dicho esto,
-			queda a criterio de cada persona cualquier inversion que decida realizar. No somos asesores inversionistas, 
-			ni responsables de las desiciones que se tomen en base a esta informacion"
-		</h2>
+	<section class="background-none">
+		<div class="text-center text-light p-5">
+			<h2>"Este sitio fue realizado a modo de practico en el marco de estudio en la Agencias de Aprendizaje
+			a lo largo de la vida, Codo a Codo Full Stack Node.JS Comision 24124"
+			</h2>
+			<h2>"Todo lo aqui volcado, es a modo informativo y fue recopilado de otros sitio web. Dicho esto,
+				queda a criterio de cada persona cualquier inversion que decida realizar. No somos asesores inversionistas, 
+				ni responsables de las desiciones que se tomen en base a esta informacion"
+			</h2>
+		</div>	
+	</section>
+	<section>
+		<div class="text-center my-5">
+			<h2 class="text-light">Nuevos Shows</h2>
+			<div id="carouselExampleFade" class="carousel slide carousel-fade w-75 p-5 mx-auto">
+				<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="https://images.pexels.com/photos/154147/pexels-photo-154147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+				</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
 	</section>
 
-	<footer>
+	
+
+	<footer class="background-none">
 		<div class="contenedor-footer">
 			<div class="content-footer">
-				<h4>Telefono</h4>
+				<h6>Telefono</h4>
 				<p>0123456789</p>
 			</div>
 			<div class="content-footer">
-				<h4>Email</h4>
+				<h6>Email</h4>
 				<p>ejemplo@gmail.com</p>
 			</div>
 			<div class="content-footer">
-				<h4>Ubicacion</h4>
+				<h6>Ubicacion</h4>
 				<p>#######</p>
 			</div>
 		</div>
-		<h2 class="titulo-final">&copy;Full Stack Node.JS | CaC Comision 24124 Grupo 14</h2>
+		<h6 class="titulo-final">&copy;Full Stack Node.JS | CaC Comision 24124 Grupo 14</h6>
 	</footer>
 	<script src="script.js"></script>
 </body>
