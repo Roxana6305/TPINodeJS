@@ -18,8 +18,8 @@ button {
 }
 
 .dark-mode {
-    background-color: #000;
-    color: #fff;
+    background-color: #ffffff;
+    color: #050505;
 }
 
 .barra-navegacion{
@@ -78,11 +78,14 @@ footer{
 }
 
 /* -----Agregados y modificados para el index (Karina)---------------------------------*/
-
+.bodystyles{
+	background-color: #070707;
+	color: #ffffff;
+}
 .background-index {
-	background-image: url("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-image: url("https://images.pexels.com/photos/1306791/pexels-photo-1306791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
 }
 
 /* ----------------Fuentes ----------------------*/
@@ -127,14 +130,15 @@ footer{
 	align-self:center;
 	justify-content: center;
 }
-.icon {
+.icondarken {
 	margin: 2%;
 	width: 2em;
 	height: 2em;
 	vertical-align: -0.125em;
+	fill:#ffffff;
 }
-.icon:hover{
-filter:invert();
+.icondarken:hover{
+	scale:1.2;
 }
 
 .background-none{
@@ -234,7 +238,7 @@ footer{
 .animateonload{
 	width:100vw;
 	height:100vh;
-	background-color: #000000e3;
+	background-color: #070707;
 	animation-name: fadeIn;
 	animation-duration: 3s;
 	animation-fill-mode: none; /* La animación volverá al estado inicial después de completarse */
@@ -257,10 +261,28 @@ footer{
   }
 
 
+/* -----Cards----- */
+.cardframe{
+	border-radius: 5%;
+	background-color: #292929;
+	height:500px;
+}
+
+.cardwidth{
+	width: 19rem;
+}
+
 /* ------Espaciados, margenes y otros --------------- */
 .textbody{
 	padding:5%;
 	padding-top: 12%;
+}
+
+.flexcenter{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
 }
 .vh100{
 	height:100vh
@@ -284,3 +306,8 @@ footer{
 
 
 /* Media Query para pantallas más pequeñas */
+@media screen and (max-width: 976px){
+	.cardwidth{
+		width: 60%;
+	}
+} 
