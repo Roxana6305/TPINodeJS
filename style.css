@@ -201,6 +201,27 @@ footer{
 	fill:#292929;
 }
 
+/* -------Medios de pago y FAQS------ */
+.mediospago{
+	height:30%;
+	margin: 5% 0;
+}
+.imgsvg1 {
+	width:112px;
+}
+.imgsvg2 {
+	width:64px;
+}
+.faqsdiv{
+	height:10rem;
+	/* background-color: #8F7CEC; */
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), #8f7cec2c);
+	transition: background-image 10000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.imgsvg100px{
+	width:67px;
+	fill:#fff;
+}
 
 /* ---------------Footer experimental -------------*/
 footer{
