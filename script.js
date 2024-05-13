@@ -1,4 +1,3 @@
-const URL = "https://ayacodoacodo.pythonanywhere.com/";
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
@@ -20,11 +19,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
   //Al tener el documento cargado ejecuta las animaciones:
     fullcover.classList.add('animateonload');
     rotcover.classList.add('animateonloadtext');
- 
+
   });
 
   fullcover.addEventListener('animationend', () => {
-   setTimeout(() => {
+  setTimeout(() => {
     
     //Borra el banner despues de ejecutar la animación
     while (fullcover.lastElementChild) {
@@ -35,7 +34,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     masked.forEach(element => {
       element.style.opacity=1 
     });
-   }, 3000);
+  }, 3000);
   
   });
- 
