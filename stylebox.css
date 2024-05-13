@@ -49,6 +49,7 @@ header{
 
 .home a, .sesion a:hover {
     color: #333;
+    /* text-decoration: underline; */
 }
 
 /*MAIN******** FORMULARIO**********/
@@ -150,7 +151,8 @@ button {
 .button-form {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 #register {
@@ -160,6 +162,7 @@ button {
     margin: auto;
     width: 60%;
     text-align: center;
+    padding: 3%;
 }
 
 #register a {
@@ -169,6 +172,11 @@ button {
 }
 a:visited{
     color:#CBBDDB;
+}
+
+a:visited:hover {
+    color:  #333;
+    /* text-decoration: underline;*/
 }
 
 .link-home {
