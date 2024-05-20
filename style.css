@@ -17,10 +17,10 @@ button {
 	text-align: right;
 }
 
-.dark-mode {
+/* .dark-mode {
     background-color: #ffffff;
     color: #050505;
-}
+} */
 
 .barra-navegacion{
 	display: flex;
@@ -78,9 +78,12 @@ footer{
 }
 
 /* -----Agregados y modificados para el index (Karina)---------------------------------*/
-.bodystyles{
+/* .bodystyles{
 	background-color: #070707;
 	color: #ffffff;
+} */
+body{
+	background-color:#070707;
 }
 .background-index {
 	background-image: url("https://images.pexels.com/photos/1306791/pexels-photo-1306791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -198,7 +201,7 @@ footer{
 	fill:#1b54da;
 }
 .nodeteck-icon-font{
-	fill:#292929;
+	fill:#e4e4e4;
 }
 
 /* -------Medios de pago y FAQS------ */

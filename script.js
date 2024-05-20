@@ -4,10 +4,10 @@ const body = document.body;
 
 
 
-themeToggle.addEventListener('click', () => {
+/* themeToggle.addEventListener('click', () => {
     body.classList.toggle('bodystyles');
     body.classList.toggle('dark-mode');
-});
+}); */
 
 /* Agregado Karina */
 
