@@ -17,10 +17,10 @@ button {
 	text-align: right;
 }
 
-.dark-mode {
-    background-color: #000;
-    color: #fff;
-}
+/* .dark-mode {
+    background-color: #ffffff;
+    color: #050505;
+} */
 
 .barra-navegacion{
 	display: flex;
@@ -78,11 +78,17 @@ footer{
 }
 
 /* -----Agregados y modificados para el index (Karina)---------------------------------*/
-
+/* .bodystyles{
+	background-color: #070707;
+	color: #ffffff;
+} */
+body{
+	background-color:#070707;
+}
 .background-index {
-	background-image: url("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-image: url("https://images.pexels.com/photos/1306791/pexels-photo-1306791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
 }
 
 /* ----------------Fuentes ----------------------*/
@@ -127,14 +133,15 @@ footer{
 	align-self:center;
 	justify-content: center;
 }
-.icon {
+.icondarken {
 	margin: 2%;
 	width: 2em;
 	height: 2em;
 	vertical-align: -0.125em;
+	fill:#ffffff;
 }
-.icon:hover{
-filter:invert();
+.icondarken:hover{
+	scale:1.2;
 }
 
 .background-none{
@@ -194,9 +201,30 @@ filter:invert();
 	fill:#1b54da;
 }
 .nodeteck-icon-font{
-	fill:#292929;
+	fill:#e4e4e4;
 }
 
+/* -------Medios de pago y FAQS------ */
+.mediospago{
+	height:30%;
+	margin: 5% 0;
+}
+.imgsvg1 {
+	width:112px;
+}
+.imgsvg2 {
+	width:64px;
+}
+.faqsdiv{
+	height:10rem;
+	/* background-color: #8F7CEC; */
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), #8f7cec2c);
+	transition: background-image 10000ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.imgsvg100px{
+	width:67px;
+	fill:#fff;
+}
 
 /* ---------------Footer experimental -------------*/
 footer{
@@ -234,7 +262,7 @@ footer{
 .animateonload{
 	width:100vw;
 	height:100vh;
-	background-color: #000000e3;
+	background-color: #070707;
 	animation-name: fadeIn;
 	animation-duration: 3s;
 	animation-fill-mode: none; /* La animación volverá al estado inicial después de completarse */
@@ -257,10 +285,28 @@ footer{
   }
 
 
+/* -----Cards----- */
+.cardframe{
+	border-radius: 5%;
+	background-color: #292929;
+	height:500px;
+}
+
+.cardwidth{
+	width: 19rem;
+}
+
 /* ------Espaciados, margenes y otros --------------- */
 .textbody{
 	padding:5%;
 	padding-top: 12%;
+}
+
+.flexcenter{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
 }
 .vh100{
 	height:100vh
@@ -284,3 +330,8 @@ footer{
 
 
 /* Media Query para pantallas más pequeñas */
+@media screen and (max-width: 976px){
+	.cardwidth{
+		width: 60%;
+	}
+} 
