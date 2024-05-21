@@ -335,3 +335,9 @@ footer{
 		width: 60%;
 	}
 } 
+
+/* carrito */
+.main-container {
+    margin-top: 15%;
+	margin-bottom: 10%;
+}
